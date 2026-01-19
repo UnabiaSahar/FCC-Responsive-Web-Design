@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  color: darkgreen;
+  line-height: 1.6;
+  padding-top: 60px;
+}
+
+/* Header */
+#header {
+  width:100%;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  position: fixed;
+  top: 0;
+}
+
+#header-img {
+  width: 60px;
+  height: auto;
+}
+
+/* Navbar */
+#nav-bar a {
+  color: darkgreen;
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: bold;
+  transition: 0.3s;
+  position: relative;
+}
+#nav-bar a:hover {
+  color: darkgreen;
+  background-color: whitesmoke;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Headings */
+h2 {
+  color: darkgreen;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: olivedrab;
+  color: cornsilk;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+}
+
+h4{
+  color: darkgreen;
+}
+/* Contact Section */
+#contactus {
+  background-color: olivedrab;
+  color: cornsilk;
+  text-align: center;
+  padding: 2em;
+}
+
+#contactus h2{
+    color: cornsilk;
+}
+
+#email {
+  padding: 0.5em;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5em 0;
+}
+
+#submit {
+  background-color: cornsilk;
+  color: olivedrab;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: olive;
+  color: cornsilk;
+}
+
+/* Video */
+#video {
+  display: block;
+  margin: 2em auto;
+  max-width: 80%;
+  border: 5px solid olive;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: white;
+  }
+  p{
+    font-size: 12px;
+  }
+  h1,h2,h3{
+    font-size: 16px;
+  }
+  h4{
+    font-size: 12px;
+  }
+}
