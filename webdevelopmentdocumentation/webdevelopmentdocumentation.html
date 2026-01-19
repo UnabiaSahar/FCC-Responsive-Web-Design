@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Documentation</title>
+  <link rel="stylesheet" href="technicaldocumentationpage.css">
+</head>
+
+<body>
+  <main id="main-doc">
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a href="#Heading" class="nav-link">Introduction</a>
+      <a href="#Heading_02" class="nav-link">HTML Basics</a>
+      <a href="#Lists" class="nav-link">CSS Basics</a>
+      <a href="#Paragraphs_and_Lists" class="nav-link">JavaScript Basics</a>
+      <a href="#Topic_05" class="nav-link">Frontend vs Backend</a>
+    </nav>
+
+    <!-- Section 1 -->
+    <section class="main-section" id="Heading">
+      <header>
+        <h1>Introduction to Web Development</h1>
+      </header>
+      <p>Web development is the process of building and maintaining websites. It consists of two main parts:</p>
+      <ul>
+        <li><strong>Frontend Development:</strong> The part users see (UI).</li>
+        <li><strong>Backend Development:</strong> The server-side logic and database.</li>
+      </ul>
+      <p>Core technologies in web development are:</p>
+      <ol>
+        <li>HTML – Structure</li>
+        <li>CSS – Styling</li>
+        <li>JavaScript – Interactivity</li>
+      </ol>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="main-section" id="Heading_02">
+      <header>
+        <h1>HTML Basics</h1>
+      </header>
+      <p>HTML (HyperText Markup Language) provides the basic structure of web pages.</p>
+      <p>Basic HTML template:</p>
+      <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;p&gt;This is my first webpage.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      <p>Important HTML elements include:</p>
+      <ul>
+        <li><code>&lt;h1&gt;...&lt;/h1&gt;</code> – Headings</li>
+        <li><code>&lt;p&gt;...&lt;/p&gt;</code> – Paragraphs</li>
+        <li><code>&lt;a href="..."&gt;...&lt;/a&gt;</code> – Links</li>
+        <li><code>&lt;img src="..." alt="..."&gt;</code> – Images</li>
+      </ul>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="main-section" id="Lists">
+      <header>
+        <h1>CSS Basics</h1>
+      </header>
+      <p>CSS (Cascading Style Sheets) is used to style and layout web pages.</p>
+      <p>Example CSS snippet:</p>
+      <pre><code>
+body {
+  background-color: #f5f2eb;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #8d7b68;
+  text-align: center;
+}
+</code></pre>
+      <p>Types of CSS:</p>
+      <ul>
+        <li>Inline CSS</li>
+        <li>Internal CSS</li>
+        <li>External CSS</li>
+      </ul>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="main-section" id="Paragraphs_and_Lists">
+      <header>
+        <h1>JavaScript Basics</h1>
+      </header>
+      <p>JavaScript adds interactivity and dynamic behavior to websites.</p>
+      <p>Example:</p>
+      <pre><code>
+&lt;button onclick="greet()"&gt;Click Me&lt;/button&gt;
+
+&lt;script&gt;
+function greet() {
+  alert("Hello, welcome to Web Development!");
+}
+&lt;/script&gt;
+</code></pre>
+      <p>Key features of JavaScript:</p>
+      <ol>
+        <li>Variables and Data Types</li>
+        <li>Functions</li>
+        <li>DOM Manipulation</li>
+        <li>Events</li>
+        <li>ES6 Features</li>
+      </ol>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="main-section" id="Topic_05">
+      <header>
+        <h1>Frontend vs Backend</h1>
+      </header>
+      <p><strong>Frontend Development</strong> focuses on the user interface using HTML, CSS, and JavaScript.</p>
+      <p><strong>Backend Development</strong> handles server-side logic, databases, and APIs.</p>
+      <p>Common backend languages and frameworks include:</p>
+      <ul>
+        <li>Node.js (JavaScript)</li>
+        <li>Python (Django, Flask)</li>
+        <li>PHP (Laravel)</li>
+        <li>Java (Spring Boot)</li>
+      </ul>
+      <p>A full-stack developer is someone who works on both frontend and backend.</p>
+    </section>
+
+  </main>
+</body>
+</html>
